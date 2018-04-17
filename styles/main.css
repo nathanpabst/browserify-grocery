@@ -23,3 +23,9 @@ body {
   font-size: 50px;
   left: 40px;
 }
+
+/* ITEMS */
+.item-image {
+  height: 100px;
+  width: 100px;
+}
