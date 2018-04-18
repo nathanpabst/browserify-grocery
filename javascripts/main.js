@@ -1,5 +1,7 @@
 const dataGatekeeper = require('./dataGateKeeper');
+const buttonEvents = require('./buttonEvents');
 
+buttonEvents.departmentButton();
 dataGatekeeper.initializer();
 
 // FROM: https://www.codeply.com/go/2VmBU7TanF/bootstrap-plus-minus-counter-input
