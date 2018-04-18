@@ -1,4 +1,8 @@
 const dataGatekeeper = require('./dataGateKeeper');
+const buttonEvents = require('./buttonEvents');
+
+buttonEvents.departmentsButton();
+buttonEvents.cartButton();
 
 dataGatekeeper.initializer();
 
